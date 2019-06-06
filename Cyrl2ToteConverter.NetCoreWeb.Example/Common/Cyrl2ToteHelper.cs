@@ -116,7 +116,7 @@ namespace Cyrl2ToteConverter.NetCoreWeb.Example
                                 case "ъ": { toteChars[tIndex] = ""; } break;
                                 case "Ъ": { toteChars[tIndex] = ""; } break;
                                 case "¬": { toteChars[tIndex] = ""; } break;
-                                default: { toteChars[tIndex] = chars[tIndex] != "" ? chars[tIndex] : ""; } break;
+                                default: { toteChars[tIndex] = chars[j] != "" ? chars[j] : ""; } break;
                             }
                         }
                         string toteWord = string.Concat(toteChars);
