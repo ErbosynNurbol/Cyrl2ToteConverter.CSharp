@@ -18,7 +18,7 @@ namespace Cyrl2ToteConverter.NetCoreWeb.Example
 
         private static Dictionary<string, string> dialectWordsDic = new Dictionary<string, string>()
         {
-           {"قر","ق ر"}, {"جحر","ج ح ر"},{"جشس","ج ش س"},{"شۇار","ش ۇ ا ر"},{"باق","ب ا ق"},{"ءباسپاسوز","باسپا ءسوز"},
+           {"قر","ق ر"}, {"جحر","ج ح ر"},{"جشس","ج ش س"},{"شۇار","ش ۇ ا ر"},{"باق","ب ا ق"},{"ءباسپاسوز","باسپا ءسوز"},{"قىتاي","جۇڭگو"}
         };
 
         #region Кирилшені төте жазуға сәйкестендіру
